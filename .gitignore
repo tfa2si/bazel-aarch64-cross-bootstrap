@@ -1,0 +1,22 @@
+# Bazel build outputs
+bazel-*
+.bazel/
+
+# Downloaded .deb packages (used by bootstrap script)
+*.deb
+
+# Temporary extraction directories
+/tmp_deb_extract/
+
+# The cloned target repo (not part of this project)
+communication/
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
